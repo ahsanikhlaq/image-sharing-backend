@@ -1,4 +1,12 @@
 {
+  "name": "image-sharing-backend",
+  "version": "1.0.0",
+  "description": "Backend for image sharing application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
@@ -6,5 +14,10 @@
     "fs-extra": "^11.3.1",
     "multer": "^2.0.2",
     "pg": "^8.16.3"
-  }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
