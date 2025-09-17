@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const { Pool } = require('pg');
 
 // Create a new pool of connections to the PostgreSQL database using DATABASE_URL
